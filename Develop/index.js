@@ -18,6 +18,11 @@ function init() {
       
       },
       {
+      type: 'input',
+      name:  'Username',
+      message: 'Enter your GitHub username: '
+      },
+      {
           type: "input",
           name: 'description',
           message: "Enter a detailed description of your project:"
@@ -34,7 +39,7 @@ function init() {
       },
       {
         type: 'list',
-        name: 'licenses',
+        name: 'license',
         message: 'Please select how your project is licensed:',
         choices: ['MIT',
          'GNU()', 
