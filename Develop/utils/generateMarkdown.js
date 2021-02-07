@@ -1,58 +1,90 @@
-
-
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+
+function renderLicenseBadge(license) {
+  if (license === "MIT") {
+    return `![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)`;
+  }
+  else if (license === "Mozilla"){
+    return `![License: Mozilla](https://img.shields.io/badge/license-Mozilla-blue.svg)`;
+  }
+  else if (license === "Boost"){
+    return `![License: Boost](https://img.shields.io/badge/license-Boost-blue.svg)`;
+    
+  } else (license === "none")
+    return ( ``)
+  }
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+
+function renderLicenseLink(license) {
+  if (license === "MIT") {
+    return `![MIT](https://opensource.org/licenses/MIT)`;
+  }
+  else if (license === "Mozilla"){
+    return `![Mozilla](https://opensource.org/licenses/MPL-2.0)`;
+  }
+  else if (license === "Boost"){
+    return `![Boost](https://opensource.org/licenses/BSL-1.0)`;
+  } else (license === 'none') 
+    return ( ``)
+  }     
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README ${response.title}
+function renderLicenseSection(license) {  
+  if (license === "MIT") {
+    return `(https://opensource.org/licenses/MIT)`;
+  }
+  else if (license === "Mozilla"){
+    return `(https://opensource.org/licenses/MPL-2.0)`;
+  }
+  else if (license === "Boost"){
+    return `(https://opensource.org/licenses/BSL-1.0)`;
+  } else (license === 'none') 
+    return ( ``)
+  } 
+    
+// TODO: Create a function to generate markdown for README 
 function generateMarkdown(data) {
-  return `
-  
-  # Repository Title:   ${data.title}
-
-  
-  
-  
-  ## Descripition
-
-  ${data.description}
+  return `  
+  # Repository Title:   ${data.title}     ${renderLicenseBadge(data.license)} 
+    
 
   ## Table of Contents
 
-  1. [Description](#description)
+  * [Description](#description)
 
-  2. [Installation](#installation)
+  * [Installation](#installation)
 
-  3. [Usage](#usage)
+  * [Features](#features)
 
-  4. [License](#license)
+  * [License](#license)
 
-  5. [Contributing](#contributing)
+  * [Contributing](#contributing)
 
-  6. [Tests](#tests)
+  * [Tests](#tests)
 
-  7. [Questions](#questions)
+  * [Credits](#credits)
 
+  * [Questions](#questions)
+
+  ## Descripition
+
+  ${data.description}
 
   ## Installation
 
   ${data.installation}
 
-  ## Usage
+  ## Features
 
-  ${data.usage}
+  ${data.features}
 
   ## License
 
-  ${data.license}
+  Licensed by:  ${renderLicenseLink(data.license)}
+  
+  For more information go to:  ${renderLicenseSection(data.license)}
 
   ## Contributing
 
@@ -61,6 +93,10 @@ function generateMarkdown(data) {
   ## Tests
 
   ${data.tests}
+
+  ## Credits
+
+  ${data.credits}
 
   ## Questions
 
