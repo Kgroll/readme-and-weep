@@ -1,56 +1,53 @@
 
   
-  # Repository Title
+  # Repository Title:   README AND WEEP
 
-  readme
-
-  # GitHub Link
-  
-  https://github.com/kgroll
   
   
-  # Descripition
+  
+  ## Descripition
 
-  readdddd
+  Making a README so easy and fast you will weep with joy
 
-  # Table of Contents
+  ## Table of Contents
 
-  [Description](#description)
+  1. [Description](#description)
 
-  [Installation](#installation)
+  2. [Installation](#installation)
 
-  [Usage](#usage)
+  3. [Usage](#usage)
 
-  [License](#license)
+  4. [License](#license)
 
-  [Contributing](#contribute)
+  5. [Contributing](#contributing)
 
-  [Tests](#tests)
+  6. [Tests](#tests)
 
-  [Questions](#questions)
+  7. [Questions](#questions)
 
-  [Contact Information](#contact)
 
-  # Installation
+  ## Installation
 
-  hgkhkhkfhgkfd
+  clone and paste , and npm and node.js
 
-  # Usage
+  ## Usage
 
-  gghfhrkdkgh
+  for ghakgka
 
-  # License
+  ## License
 
-  MIT
+  GNU()
 
-  # Contributing
+  ## Contributing
 
-  Contributors: true
+  gahhdgggk
 
-  # Tests
+  ## Tests
 
-  undefined
+  a = b= d
 
-  # Questions
+  ## Questions
 
-  If you have any questions please open an issue in GitHub or contact kgroll at undefined.
+   GitHub Link:   https://github.com/kgroll
+
+   If you have any questions please open an issue in GitHub or contact Kristen Groller	 at groller@rogers.com.

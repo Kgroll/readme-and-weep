@@ -19,6 +19,11 @@ function init() {
       },
       {
       type: 'input',
+      name: 'name',
+      message: 'Please enter your name:'
+      },
+      {
+      type: 'input',
       name:  'Username',
       message: 'Enter your GitHub username: '
       },
@@ -49,13 +54,29 @@ function init() {
         type: 'confirm',
         name: 'contribute',
         message: 'Are you open to contributions to your project?',
-      
-      },
+        default: true        
+      },    
       {
         type: 'input',
         name: 'confirmContribute',
-        message: 'What are your requirements for accepting contributions?',           
-        
+        message: 'What are your requirements for accepting contributions?',   
+        when: ({ contribute }) => {
+          if (contribute) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+      },
+      {
+        type: 'input',
+        name: 'tests',
+        message: 'Give some examples of test to be run for your project:'
+      },
+      {
+        type: 'link',
+        name: 'email',
+        message: 'Please enter your email address:'
       },
     ])
     .then(function(response) {
