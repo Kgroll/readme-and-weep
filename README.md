@@ -57,8 +57,10 @@
    If you have any questions please open an issue in GitHub or contact Kristen Groller at groller@rogers.com.
    
    ## Screenshots
-   https://github.com/Kgroll/readme-and-weep/blob/master/screenshotweep1.png
    
+  ![screenshotweep1](https://user-images.githubusercontent.com/75186217/107162682-f3a81800-6972-11eb-967d-b8b69b32ea8b.png)
+  ![screenshotweep2](https://user-images.githubusercontent.com/75186217/107162686-f60a7200-6972-11eb-93ed-0de7d3f03a82.png)
+
    
    ## Video Walkthrough
    
