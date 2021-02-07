@@ -30,7 +30,7 @@
 
   ## Features
 
-  With just a few prompted questions a beautifully layed out README will be formed and all you will need to do is copy and paste the file into your GitHub README file! It is that easy!!
+  With just a few prompted questions a beautifully laid out README will be formed and all you will need to do is copy and paste the file into your GitHub README file! It is that easy!!
 
   ## License
 
