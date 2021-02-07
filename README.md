@@ -1,5 +1,5 @@
- 
-  # Repository Title:   README AND WEEP     ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) 
+  
+  # Repository Title:   README AND WEEP     ![License: Mozilla](https://img.shields.io/badge/license-Mozilla-blue.svg) 
     
 
   ## Table of Contents
@@ -12,7 +12,7 @@
 
   * [License](#license)
 
-  * [Contributing](#contributing)
+  * [Contributions](#contributions)
 
   * [Tests](#tests)
 
@@ -34,13 +34,13 @@
 
   ## License
 
-  Licensed by:  ![MIT](https://opensource.org/licenses/MIT)
+  Licensed by:  ![Mozilla](https://opensource.org/licenses/MPL-2.0)
   
-  For more information go to:  (https://opensource.org/licenses/MIT)
+  For more information go to:  (https://opensource.org/licenses/MPL-2.0)
 
   ## Contributions
 
-  All contributions are welcome!
+  None at this time
 
   ## Tests
 
