@@ -26,7 +26,7 @@
 
   ## Installation
 
-  To install the appliaction you will first need to download node.js and npm init inquirer in your command-line
+  To install the appliaction you will first need to clone the code from my GitHub account and paste it into your commandline. You will then need to download node.js and npm init inquirer as these are crucial to the program. Once everything is installed enter node index.js in the command line and follow the given prompts. When finished answering all of the questions a "README created!" notification is displayed. Now enter code . in the command-line and you will be directed to your editor where the new README file will be displayed.
 
   ## Features
 
@@ -38,13 +38,13 @@
   
   For more information go to:  (https://opensource.org/licenses/MIT)
 
-  ## Contributing
+  ## Contributions
 
   All contributions are welcome!
 
   ## Tests
 
-  Run through the questions as many times as you like and then right click on the new README tab and select Preview to see how great the page looks!
+  Run through the questions as many times as you like and then right clickon the new README tab and select Preview or press Ctrl-Shift-V to see how great the page looks!
 
   ## Credits
 
