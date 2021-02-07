@@ -26,7 +26,7 @@
 
   ## Installation
 
-  To install this appliaction you will first need to clone the code from my GitHub account and paste it into your command-line. You will then need to download node.js and npm init inquirer as these are crucial to the program. Once everything is installed enter node index.js in the command line and follow the given prompts. When finished answering all of the questions a "README created!" notification is displayed. Now enter code . in the command-line and you will be directed to your editor where the new README file will be displayed.
+  To install this application you will first need to clone the code from my GitHub account and paste it into your command-line. You will then need to download node.js and npm init inquirer as these are crucial to the program. Once everything is installed enter node index.js in the command line and follow the given prompts. When finished answering all of the questions a "README created!" notification is displayed. Now enter code . in the command-line and you will be directed to your editor where the new README file will be displayed.
 
   ## Features
 
@@ -56,5 +56,5 @@
 
    If you have any questions please open an issue in GitHub or contact Kristen Groller at groller@rogers.com.
    
-   https://user-images.githubusercontent.com/75186217/107161194-1af9e780-6969-11eb-9b6a-0982ba8b8e2c.png
-   https://user-images.githubusercontent.com/75186217/107161198-1cc3ab00-6969-11eb-97dd-388874f9d451.png
+   
+   
