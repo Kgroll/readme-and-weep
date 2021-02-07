@@ -1,51 +1,57 @@
-  # Repository Title:   README AND WEEP
-
-  
-  
-  
-  ## Descripition
-
-  Making a README so easy and fast you will weep with joy
+ 
+  # Repository Title:   README AND WEEP     ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) 
+    
 
   ## Table of Contents
 
-  1. [Description](#description)
+  * [Description](#description)
 
-  2. [Installation](#installation)
+  * [Installation](#installation)
 
-  3. [Usage](#usage)
+  * [Features](#features)
 
-  4. [License](#license)
+  * [License](#license)
 
-  5. [Contributing](#contributing)
+  * [Contributing](#contributing)
 
-  6. [Tests](#tests)
+  * [Tests](#tests)
 
-  7. [Questions](#questions)
+  * [Credits](#credits)
 
+  * [Questions](#questions)
+
+  ## Descripition
+
+  This project allows you to create a README file directly from your command-line application, it is so fast and easy you will weep with joy!
 
   ## Installation
 
-  clone and paste , and npm and node.js
+  To install the appliaction you will first need to download node.js and npm init inquirer in your command-line
 
-  ## Usage
+  ## Features
 
-  for ghakgka
+  With just a few prompted questions a beautifully layed out README will be formed and all you will need to do is copy and paste the file into your GitHub README file! It is that easy!!
 
   ## License
 
-  GNU()
+  Licensed by:  ![MIT](https://opensource.org/licenses/MIT)
+  
+  For more information go to:  (https://opensource.org/licenses/MIT)
 
   ## Contributing
 
-  gahhdgggk
+  All contributions are welcome!
 
   ## Tests
 
-  a = b= d
+  Run through the questions as many times as you like and then right click on the new README tab and select Preview to see how great the page looks!
+
+  ## Credits
+
+  None
 
   ## Questions
 
    GitHub Link:   https://github.com/kgroll
 
-   If you have any questions please open an issue in GitHub or contact Kristen Groller	 at groller@rogers.com.
+   If you have any questions please open an issue in GitHub or contact Kristen Groller at groller@rogers.com.
